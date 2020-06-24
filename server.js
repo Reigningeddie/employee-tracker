@@ -11,7 +11,7 @@ var connection = mysql.createConnection({
 
   // Your password
     password: "",
-    database: "Dunder_Mifflin_DB"
+    database: "Dunder_Mifflin_db"
 });
 
 connection.connect(function(err) {
